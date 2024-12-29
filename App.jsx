@@ -2,6 +2,7 @@ import { useState } from 'react';
 // import Spreadoperatot from './components/Spreadoperatot';
 // import Calculator from './components/Calculator';
 import Visitingcard from './components/Visitingcard';
+import Cryptotracking from './components/Cryptotracking';
 
 
 export default function Counter() {
@@ -11,7 +12,8 @@ export default function Counter() {
     <>
     {/* <Calculator/> */}
     {/* <Spreadoperatot/> */}
-    <Visitingcard/>
+    {/* <Visitingcard/> */}
+    <Cryptotracking/>
     </>
   );
 }
